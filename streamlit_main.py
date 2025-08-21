@@ -25,7 +25,7 @@ st.set_page_config(page_title="간단 번호판 OCR", layout="wide")
 st.title("번호판 인식 → 크롭(여백) → EasyOCR")
 
 weights_path = st.text_input("YOLO 가중치 경로(.pt)", value="carplate_v11_yolo11n_70n.pt")
-conf = st.slider("감지 신뢰도(conf)", 0.1, 0.9, 0.3, 0.05)
+conf = st.slider("감지 신뢰도(conf)", 0.1, 0.9, 0.5, 0.05)
 margin_px = st.slider("크롭 여백(px)", 0, 120, 2, 2)
 
 uploaded = st.file_uploader("이미지 업로드 (jpg/png/bmp)", type=["jpg","jpeg","png","bmp"])
