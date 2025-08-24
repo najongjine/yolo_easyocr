@@ -1,10 +1,6 @@
---extra-index-url https://download.pytorch.org/whl/cpu
-
-streamlit==1.37.1
-ultralytics==8.3.63
-easyocr==1.7.2
-numpy==1.26.4
-opencv-python-headless==4.10.0.84
-torch==2.2.1
-# (선택) PIL/이미지 유틸이 필요하다면
-pillow==10.3.0
+streamlit
+ultralytics
+easyocr
+opencv-python-headless
+numpy
+torch
