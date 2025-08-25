@@ -8,4 +8,4 @@ uv venv --python 3.10
 
 uv add -r requirements.txt
 
-uv run streamlit run predict_streamlit.py
+uv run streamlit run streamlit_main_v2.py
