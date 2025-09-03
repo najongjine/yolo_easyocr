@@ -1,9 +1,16 @@
 [project]
-name = "easyocr"
+name = "yolo_easyocr"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "easyocr>=1.7.2",
     "matplotlib>=3.10.5",
+    "numpy>=2.2.6",
+    "opencv-python-headless>=4.11.0.86",
+    "pillow>=11.3.0",
+    "streamlit>=1.49.1",
+    "torch>=2.8.0",
+    "ultralytics>=8.3.191",
 ]
